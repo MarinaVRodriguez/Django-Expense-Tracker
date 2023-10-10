@@ -1,1 +1,2 @@
 .DS_Store
+id_ed25519  # Assuming your SSH key file is named "id_ed25519"
