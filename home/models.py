@@ -5,6 +5,7 @@ from django.conf import settings
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.db.models import Sum
+
 #Create your models here.
 SELECT_CATEGORY_CHOICES = [
     ("Food","Food"),
@@ -42,3 +43,4 @@ class UserProfile(models.Model):
     def __str__(self):
        return self.user.username
    
+
